@@ -9,3 +9,7 @@ Content-Type: application/json
 }
 
 ###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
