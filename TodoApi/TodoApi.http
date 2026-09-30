@@ -29,3 +29,11 @@ Content-Type: application/json
 }
 
 ###
+
+PATCH {{TodoApi_HostAddress}}/todoitems/1
+Content-Type: application/json
+
+  {
+    "name": "run errands"
+  }
+###

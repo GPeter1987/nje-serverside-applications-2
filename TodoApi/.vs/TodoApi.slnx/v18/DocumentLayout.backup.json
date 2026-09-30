@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|c:\\users\\peter\\documents\\github\\nje-serverside-applications-2\\todoapi\\todoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|solutionrelative:todoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|c:\\users\\peter\\documents\\github\\nje-serverside-applications-2\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|c:\\users\\peter\\documents\\github\\nje-serverside-applications-2\\todoapi\\models\\todopatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|solutionrelative:models\\todopatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|c:\\users\\peter\\documents\\github\\nje-serverside-applications-2\\todoapi\\todoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|solutionrelative:todoapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E71EDA4-FE1C-2822-A6C9-812607CDF2E0}|TodoApi.csproj|c:\\users\\peter\\documents\\github\\nje-serverside-applications-2\\todoapi\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,32 +42,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TodoPatchDto.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\Models\\TodoPatchDto.cs",
+              "RelativeDocumentMoniker": "Models\\TodoPatchDto.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\Models\\TodoPatchDto.cs",
+              "RelativeToolTip": "Models\\TodoPatchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T16:22:26.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TodoApi.http",
               "DocumentMoniker": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\TodoApi.http",
               "RelativeDocumentMoniker": "TodoApi.http",
               "ToolTip": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\TodoApi.http",
               "RelativeToolTip": "TodoApi.http",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwBoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-09-28T16:02:12.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T16:02:12.889Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TodoDb.cs",
-              "DocumentMoniker": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\TodoDb.cs",
-              "RelativeDocumentMoniker": "TodoDb.cs",
-              "ToolTip": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\TodoDb.cs",
-              "RelativeToolTip": "TodoDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-26T12:37:58.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Todo.cs",
               "DocumentMoniker": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\Models\\Todo.cs",
               "RelativeDocumentMoniker": "Models\\Todo.cs",
@@ -75,16 +78,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-24T16:38:59.468Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoDb.cs",
+              "DocumentMoniker": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\TodoDb.cs",
+              "RelativeDocumentMoniker": "TodoDb.cs",
+              "ToolTip": "C:\\Users\\peter\\Documents\\GitHub\\nje-serverside-applications-2\\TodoApi\\TodoDb.cs",
+              "RelativeToolTip": "TodoDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T12:37:58.997Z"
             }
           ]
         }
