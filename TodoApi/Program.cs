@@ -58,6 +58,20 @@ app.MapDelete("/todoitems/{id}", async (int id, TodoDb db) =>
     return Results.NotFound();
 });
 
+app.MapPatch("/todoitems/{id}", async (int id, TodoPatchDto inputTodo, TodoDb db) =>
+{
+    var todo = await db.Todos.FindAsync(id);
+
+    if (todo is null) return Results.NotFound();
+
+    if (inputTodo.Name is not null) todo.Name = inputTodo.Name;
+    if (inputTodo.IsComplete is not null) todo.IsComplete = inputTodo.IsComplete.Value;
+
+    await db.SaveChangesAsync();
+
+    return Results.NoContent();
+});
+
 app.Run();
 
 /*
