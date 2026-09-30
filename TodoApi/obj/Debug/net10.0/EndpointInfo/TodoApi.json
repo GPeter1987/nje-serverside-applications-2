@@ -32,7 +32,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Todo"
+                "$ref": "#/components/schemas/TodoItemDTO"
               }
             }
           },
@@ -106,7 +106,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Todo"
+                "$ref": "#/components/schemas/TodoItemDTO"
               }
             }
           },
@@ -182,7 +182,7 @@
   },
   "components": {
     "schemas": {
-      "Todo": {
+      "TodoItemDTO": {
         "type": "object",
         "properties": {
           "id": {
@@ -201,12 +201,6 @@
           },
           "isComplete": {
             "type": "boolean"
-          },
-          "secret": {
-            "type": [
-              "null",
-              "string"
-            ]
           }
         }
       },

@@ -24,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "todo",
-        "Type": "TodoApi.Models.Todo",
+        "Name": "todoItemDTO",
+        "Type": "TodoApi.Models.TodoItemDTO",
         "IsRequired": true
       }
     ],
@@ -73,8 +73,8 @@
         "IsRequired": true
       },
       {
-        "Name": "inputTodo",
-        "Type": "TodoApi.Models.Todo",
+        "Name": "todoItemDTO",
+        "Type": "TodoApi.Models.TodoItemDTO",
         "IsRequired": true
       }
     ],
