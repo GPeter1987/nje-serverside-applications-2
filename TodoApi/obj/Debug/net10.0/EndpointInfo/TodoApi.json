@@ -16,27 +16,17 @@
     "/todoitems": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Todo"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
       "post": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "requestBody": {
           "content": {
@@ -58,21 +48,11 @@
     "/todoitems/complete": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Todo"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -80,7 +60,7 @@
     "/todoitems/{id}": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -105,7 +85,7 @@
       },
       "put": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -138,34 +118,9 @@
           }
         }
       },
-      "delete": {
-        "tags": [
-          "TodoApi"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
       "patch": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -192,6 +147,31 @@
           },
           "required": true
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Program"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -251,7 +231,7 @@
   },
   "tags": [
     {
-      "name": "TodoApi"
+      "name": "Program"
     }
   ]
 }
