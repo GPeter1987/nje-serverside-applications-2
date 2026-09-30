@@ -37,3 +37,7 @@ Content-Type: application/json
     "name": "run errands"
   }
 ###
+
+DELETE {{TodoApi_HostAddress}}/todoitems/1
+
+###
